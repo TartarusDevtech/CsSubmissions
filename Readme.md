@@ -1,69 +1,68 @@
-# FAQ 
+# CsSubmissions
 
-## Can I help?
+## About
 
-Yes!  I cannot do this alone.  I am a terrible artist so completely depend on viewers for that... but other areas can be a huge help as well.  Anyone is welcome to contribute ideas, code, help test, art, music, ...everything that goes into a project.  
+**CsSubmissions** is a public repository for community contributions to the TacticalArena game project. Whether you're an artist, coder, tester, or creative thinker, your submissions help shape and enhance the project. The repo is organized by contributor username, and all contributions must include an open source license (such as MIT).
 
-You can get as involved as you like.  FYI officially this is just me.  Some have gotten very involved, but it started with them stepping up in chat saying they would like to help.  Please feel free to jump in, maybe starting small.
+## How to Contribute
 
-Pros:
+1. **Check the TODO List**  
 
- - Experience / fun.
- - For your portfolio.
- - Credits in the game itself.
- - If you make a sizeable contribution, I may be able to return the favor someday in the form of a letter of recommendation (or similar).
+2. **Submission Guidelines**  
+   - Create a folder named after your username.
+   - Include your files and an open source license (MIT template below).
+   - Optionally, add a `credits.txt` file if you want credit in-game.
+   - Submit your work via a pull request.
 
-Cons:
+3. **Quick Start (New to Git?)**  
+   - Fork this repo.
+   - Add your folder and files.
+   - Commit and open a pull request.
 
- - I cannot afford to pay you for your time.  
-   - If someday we become profitable, this will change.
- - All your contributions must be submitted with an open-source, free for commercial-use license (such as MIT).
- - Not all contributions will fit the theme or goal of the game, i.e. I cannot promise we'll use your work.
+## MIT License Template
 
-## What Should I Work On?
+```
+Copyright (c) [year] [your name]
 
-You can poke around our TODO lists here https://docs.google.com/document/d/16UcYhl3vxI0_eIHl3o-dfzr6S18MlRkq6_ywJAZBI5M/edit .. or if you have another idea, just let us know.
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+[Full MIT license text as in original Readme]
+```
 
-If there is something you are considering doing, it may be best to check in with us in chat before you start (in case someone else is on it or to confirm the direction).
+## Community & Support
 
-## How-to Help?
+- Discuss ideas and check in before starting larger tasks.
 
-To submit there are two options:
+---
 
- - For subscribers only: 
-   - The entire game is available on [GitLab](https://gitlab.com/HD-source/TacticalArena). You can submit pull requests like you would for any git project.
-     - Connect your account at [collab.hardlydifficult.com](collab.hardlydifficult.com).
-     - FYI Subs can view the source for our game and all the projects we work on. This is not 'open source' - for educational purposes or to help with the game, all rights reserved.
-     - Please limit the number of files changed, especially scenes and prefabs which typically do not merge well.
- - For anyone: 
-   - Submit files (e.g. art or code) via merge requests to [this public repository](https://github.com/hardlydifficult/Submissions).
-     - Your changes must be under a folder with your username and include an open source license, such as MIT (template below).
-     - Brand new to Git? This [Intro to GIT](https://www.dropbox.com/s/ducmblu3kj3b9x9/2017-04-26_23-18-26.mp4?dl=0) has been recommended.
-     - Basic process for submitting:
-       - Click 'Fork'.  This creates https://github.com/your-name-here/submissions
-       - Click 'Create new File' and create [your twitch name]/license.txt
-       - 'Upload files' (or use a Git client) and commit to your master branch.
-       - Optionally add a 'credits.txt'.  Include the details (e.g. name/website) that you would want in the credits screen.
-       - Click 'New Pull Request'.
-         - It should default correctly, but this should create a pull request merging your master branch into my master branch.
-         - In the comments describe what changed (if art, maybe include a screenshot).
+## Directory Structure
 
+Each top-level folder represents a contributor's set of submissions. Example folders:
+- `CaveDraft/`
+- `ExplosiveJames/`
+- `Gyaha/`
+- `Krachwumm/`
+- `PitjeXO/`
+- `RaidedDesign/`
+- `TheCoCe/`
+- `Virenz/`
+- `Whiteland92/`
+- `btastical/`
+- `the_cwazy_wabbit/`
 
-## MIT template (two blanks to fill in at the beginning)
+[View all contents and structure on GitHub.](https://github.com/TartarusDevtech/CsSubmissions/tree/master/)
 
-Copyright (c) (year) (your name here)
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+## FAQ
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+- **Can I help?** Absolutely! All help is welcome—see the About and How to Contribute sections above.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+- **What if my contribution isn't used?** Not all contributions fit the theme or game direction, but all are appreciated.
 
+- **Will I get credit?** Yes, add a `credits.txt` for in-game credits. Major contributors may also receive recommendations.
 
+---
 
-<br>
-<br>
-<br>
-<br><hr>
+## License
 
-Support on [Patreon](https://www.patreon.com/HardlyDifficult), with [Paypal](https://u.muxy.io/tip/HardlyDifficult), or by subscribing on [Twitch](https://www.twitch.tv/HardlyDifficult/subscribe) (free with Amazon Prime).
+All submissions must be open source and free for commercial use (MIT or similar). See the MIT template above.
